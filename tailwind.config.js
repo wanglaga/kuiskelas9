@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html', 'sukses.html', './kuis/*.html'],
+  content: ["index.html", "sukses.html", "./kuis/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        robo: ["Roboto"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
