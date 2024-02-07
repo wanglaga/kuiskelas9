@@ -10,10 +10,19 @@
 
 <body>
   <section class="p-5">
-    <h1 class="text-bold text-center text-2xl text-gray-800 font-semibold mb-5">
+    <h1 class="text-center text-2xl text-gray-800 font-semibold mb-5">
       Daftar Kuis Latihan Soal <br />
       Kelas 9
     </h1>
+    <div class="p-5 flex space-x-2 justify-center">
+      <a href="/kuis/ketuntasan.html">
+        <button type="button"
+          class="max-w-md mx-auto flex items-center justify-center w-full px-5 py-2 text-md transition-colors duration-200 text-white bg-green-600 border rounded-lg gap-x-2 sm:w-auto hover:bg-green-700 hover:text-white text-semibold">
+          <ion-icon name="checkmark-circle-outline" size="large"></ion-icon>
+          <span class="text-lg font-semibold">Cek Ketuntasan Kuis</span>
+        </button>
+      </a>
+    </div>
     <!-- Kuis 1 -->
     <div
       class="p-5 max-w-md mx-auto bg-gray-800 border border-gray-200 rounded-lg shadow hover:bg-gray-700 translate duration-300">
@@ -43,7 +52,7 @@
       <p class="mb-3 font-normal text-white dark:text-gray-400">
         Kuis 2 dengan topik web search engine.
       </p>
-      <a href="#"
+      <a href="/kuis/kuis2.html"
         class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         Kerjakan Tugas
         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -74,6 +83,8 @@
     </div>
     <!-- Kuis 3 -->
   </section>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
