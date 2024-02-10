@@ -934,6 +934,10 @@ video {
   padding-inline-start: 1.25rem;
 }
 
+.ps-2 {
+  padding-inline-start: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
