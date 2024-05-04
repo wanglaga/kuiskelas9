@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         robo: ["Roboto"],
+        mplus: ["'M PLUS Rounded 1c'", "Verdana", "sans-serif"],
       },
     },
   },
